@@ -1,0 +1,18 @@
+server:
+  port: 18847
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: auth-api
+          uri: lb://auth-api
+          predicates:
+              - Path=/auth/**
+          filters:
+            - StripPrefix=1
+    nacos:
+      discovery:
+        server-addr:  127.0.0.1:8848
+  application:
+    name: gateway-client
+

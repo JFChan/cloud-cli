@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>cn.easy.ccl</groupId>
+		<artifactId>ccl-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>cn.easy.ccl</groupId>
+	<artifactId>ccl-nacos-client</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ccl-nacos-client</name>
+	<description>Demo project for Spring Boot</description>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-nacos-discovery -->
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+			<version>${alibaba.nacos.vsersion}</version>
+		</dependency>
+	</dependencies>
+</project>
