@@ -1,5 +1,0 @@
-spring:
-  application:
-    name: dubbo-provider
-server:
-  port: 10880

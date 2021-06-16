@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: dubbo-consumer
-server:
-  port: 10881
-
