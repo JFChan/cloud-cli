@@ -7,11 +7,9 @@
         <artifactId>ccl-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>cn.easy.ccl</groupId>
     <artifactId>ccl-generator</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${ccl.version}</version>
     <name>ccl-generator</name>
-    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
